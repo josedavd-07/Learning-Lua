@@ -1,0 +1,24 @@
+-- En entrada de datos del sistema encontramos que tenemos:
+
+-- el io.write que escribe en la consola
+-- el io.read que lee de la consola
+-- el io.stdin que es el archivo de entrada estándar
+-- el io.stdout que es el archivo de salida estándar
+-- el io.stderr que es el archivo de error estándar
+-- el io.open que abre un archivo
+-- el io.close que cierra un archivo
+-- el io.flush que vacía el buffer de salida
+-- el io.tmpfile que abre un archivo temporales
+-- el io.type que devuelve el tipo de un objeto
+-- el io.lines que devuelve un iterador de líneas de un archivo
+-- el io.popen que abre un archivo en modo pipe
+-- el io.output que cambia el archivo de salida estándar
+-- el io.input que cambia el archivo de entrada estándar
+-- el io.tmpfile que abre un archivo temporal
+
+
+--Usaremos io.write para escribir en la consola
+io.write("Escribe tu nombre: ")
+local nombre = io.read()
+
+print("Hola mi nombre es: " .. nombre)
