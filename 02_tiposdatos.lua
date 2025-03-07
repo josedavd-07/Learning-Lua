@@ -1,3 +1,12 @@
+-- VARIABLES GLOBALES - PUEDO SER LLAMADA EN CUALQUIER PARTE DEL CODIGO
+variableGlobal = "Hola  soy una variable global y aca me llamaron"  --string
+print(variableGlobal)
+
+-- VARIABLES LOCALES - LOLO PERTENECE A SI MISMA Y NO PUEDE SER LLAMADA EN OTRA PARTE DEL CODIGO
+local variableLocal = "Hola soy una variable local y aca me llamaron"
+print(variableLocal)
+
+
 --***********SECCION DE TIPOS DE DATOS*************
 
 --TIPOS DE DATOS DE TEXTO
@@ -5,7 +14,8 @@
 --USAMOS CONCATENACION PARA UNIR DOS STRINGS
 local name = "Juan"
 local lastname = "Perez"
-local fullname = name .. " " .. lastname
+local favoriteColor = "Blue"
+local fullname = name .. " " .. lastname .. " " .. favoriteColor
 print(fullname)
 
 --Char
@@ -23,6 +33,7 @@ print(height)
 
 --BOOLEAN
 local isAlive = true
+isAlive = false
 print(isAlive)
 
 --TABLE
@@ -55,3 +66,12 @@ file:close()  -- Cierra el archivo
 local x
 print(x)
 
+
+
+
+--Comentario de una sola linea
+
+--[[
+    Comentarios de varias lineas
+    en  lua programming language
+]]--
