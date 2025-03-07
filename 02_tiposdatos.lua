@@ -37,8 +37,16 @@ isAlive = false
 print(isAlive)
 
 --TABLE
-local person = {name = "Juan", lastname = "Perez", age = 25, height = 1.75, isAlive = true}
+local person = {
+    name = "Juan", 
+    lastname = "Perez", 
+    age = 25, 
+    height = 1.75, 
+    isAlive = true
+}
+
 print(person.name)
+print(person["age"])
 
 --FUNCTION
 local function sayHello()
