@@ -1,0 +1,38 @@
+-- Operadores aritméticos
+local a, b = 10, 3
+print("Suma: ", a + b)         -- 13
+print("Resta: ", a - b)        -- 7
+print("Multiplicación: ", a * b) -- 30
+print("División: ", a / b)     -- 3.3333
+--print("División entera: ", a // b) -- 3  --Esta se implementod desde lua 5.3 enadelante  "//" es la division entera
+print("Módulo: ", a % b)       -- 1
+print("Potencia: ", a ^ b)     -- 1000
+
+-- Operadores relacionales
+local x, y = 5, 10  --Aca esta la asignacion de valores por el operador de igual "="
+print("Igualdad: ", x == y)       -- false
+print("Diferencia: ", x ~= y)     -- true
+print("Mayor que: ", x > y)       -- false
+print("Menor que: ", x < y)       -- true
+print("Mayor o igual: ", x >= y)  -- false
+print("Menor o igual: ", x <= y)  -- true
+
+-- Operadores lógicos
+local a, b = true, false
+print("AND lógico: ", a and b)   -- false
+print("OR lógico: ", a or b)     -- true
+print("NOT lógico: ", not a)     -- false
+print("NOT lógico: ", not b)     -- true
+
+-- Operador de concatenación
+local nombre = "Jose"
+local saludo = "Hola, " .. nombre .. "!"
+print(saludo)  -- Hola, Jose!
+
+-- Operador de longitud
+local mensaje = "Lua"
+print("Longitud de 'Lua': ", #mensaje) -- 3 Aca se ve que el operador # devuelve la longitud de la cadena
+
+local lista = {1, 2, 3, 4, 5}
+print("Número de elementos en la tabla: ", #lista) -- 5  Aca devolvemos laq cantidad de la lista
+print(lista[1])  --Aca el indici 1 es el pñrimer valor y no como en los demas lenguajes que empieza en 0
