@@ -36,3 +36,11 @@ print("Longitud de 'Lua': ", #mensaje) -- 3 Aca se ve que el operador # devuelve
 local lista = {1, 2, 3, 4, 5}
 print("Número de elementos en la tabla: ", #lista) -- 5  Aca devolvemos laq cantidad de la lista
 print(lista[1])  --Aca el indici 1 es el pñrimer valor y no como en los demas lenguajes que empieza en 0
+
+
+local listas = {
+    name = "Jose", --key = values   - type data = value
+    age = 25,
+    country = "Peru"
+}
+print(listas.name)
